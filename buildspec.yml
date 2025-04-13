@@ -1,0 +1,16 @@
+# buildspec.yml
+# Este archivo está presente para cumplir con la estructura de CodeBuild,
+# pero no es utilizado directamente ya que se usa GitHub Actions.
+
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Instalando dependencias..."
+  build:
+    commands:
+      - echo "Simulando proceso de build..."
+artifacts:
+  files:
+    - '**/*'
